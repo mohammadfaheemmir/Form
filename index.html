@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top-details">
+            <h1>Get an Estimate for Workshop</h1>
+        </div>
+
+        <div class="form-details">
+            <h2>Post Your Requirements</h2>
+            <p>Please fill the form below to receive a quote for workspace. Please add all the details required.</p>
+        </div>
+
+        <form action="https://formsubmit.co/youremail" target="_blank" method="POST">
+            <div class="form">
+                <h4>Contact Details</h4>
+                <p>Please fill your information so we can get in touch with you.</p>
+                <div class="line"></div>
+                <div class="form-elements">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" placeholder="Your Name">
+                </div>
+
+                <div class="form-elements">
+                    <label for="phone">Phone Number</label>
+                    <input type="number" name="phone" placeholder="(123) 456 - 7890" required>
+                </div class="form-elements">
+
+                <div class="form-elements">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="example@gmail.com" required>
+                </div>
+
+                <div class="form-elements">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="" cols="30" rows="8" placeholder="Your Message"></textarea>
+                </div>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
